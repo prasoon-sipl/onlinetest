@@ -1,0 +1,64 @@
+/*Reset CSS Start*/
+.clearfix:after, .clearfix:before { display: table; line-height: 0; content: "" }
+.clearfix:after { clear: both }
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; height: 100% }
+body { margin: 0; padding: 0; line-height: 20px; font-family: 'Open Sans', sans-serif; ; height: 100%; background: #E4E7EA; overflow-x: hidden; font-size: 14px; display: table; width: 100%; position: relative; }
+a{ text-decoration:none;}
+a:focus { outline: 0 dotted #333; outline: 0 auto -webkit-focus-ring-color; outline-offset: 0 }
+a:active, a:hover { outline: 0 }
+sub, sup { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline }
+sup { top: -.5em }
+sub { bottom: -.25em }
+img { width: auto\9; height: auto; max-width: 100%; vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic }
+#map_canvas img, .google-maps img { max-width: none }
+button, input, select, textarea { margin: 0; font-size: 100%; vertical-align: middle }
+button::-moz-focus-inner, input::-moz-focus-inner {padding:0;border:0}
+button, html input[type=button], input[type=reset], input[type=submit] { cursor: pointer; -webkit-appearance: button }
+input[type=search] { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; -webkit-appearance: textfield }
+textarea { overflow: auto }
+p { margin: 0 0 10px }
+.lead { margin-bottom: 20px; font-size: 21px; font-weight: 200; line-height: 30px }
+small { font-size: 85% }
+strong { font-weight: 700 }
+em { font-style: italic }
+cite { font-style: normal }
+.muted { color: #999 }
+a.muted:focus, a.muted:hover { color: gray }
+.text-warning { color: #c09853 }
+a.text-warning:focus, a.text-warning:hover { color: #a47e3c }
+.text-error { color: #b94a48 }
+a.text-error:focus, a.text-error:hover { color: #953b39 }
+.text-info { color: #3a87ad }
+a.text-info:focus, a.text-info:hover { color: #2d6987 }
+.text-success { color: #468847 }
+a.text-success:focus, a.text-success:hover { color: #356635 }
+.text-left { text-align: left }
+.text-right { text-align: right }
+.text-center { text-align: center }
+ol, ul { padding: 0; margin: 0; }
+ol ol, ol ul, ul ol, ul ul { margin-bottom: 0 }
+li { line-height: 20px; list-style: none; }
+ol.inline, ol.unstyled, ul.inline, ul.unstyled { margin-left: 0; list-style: none }
+ol.inline>li, ul.inline>li { display: inline-block; *display:inline;
+padding-right: 5px; padding-left: 5px; }
+button, input, label, select, textarea { font-size: 14px; font-weight: 400; line-height: 20px }
+button, input, select, textarea { font-family: 'Open Sans', sans-serif; }
+label { display: block; margin-bottom: 5px }
+.uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], select, textarea { display: inline-block; height: 25px; padding: 5px 6px; margin-bottom: 5px; font-size: 14px; line-height: 20px; color: #555; vertical-align: middle; -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 4px }
+textarea { height: auto }
+.uneditable-input, input[type=color], input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week], textarea { background-color: #fff; border: 1px solid #C6C6C6; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075); -webkit-transition: border linear .2s, box-shadow linear .2s; -moz-transition: border linear .2s, box-shadow linear .2s; -o-transition: border linear .2s, box-shadow linear .2s; transition: border linear .2s, box-shadow linear .2s }
+.uneditable-input:focus, input[type=color]:focus, input[type=date]:focus, input[type=datetime-local]:focus, input[type=datetime]:focus, input[type=email]:focus, input[type=month]:focus, input[type=number]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=time]:focus, input[type=url]:focus, input[type=week]:focus, textarea:focus { border-color: rgba(82, 168, 236, .8); outline: 0; outline: thin dotted \9; -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(82, 168, 236, .6) }
+input[type=checkbox], input[type=radio] { margin: -2px 0 0; margin-top: 1px \9; *margin-top:0;
+line-height: normal }
+input[type=button], input[type=checkbox], input[type=file], input[type=image], input[type=radio], input[type=reset], input[type=submit] { width: auto }
+input[type=file], select { height: 34px; *margin-top:4px;
+line-height: 30px }
+select { background-color: #fff; border: 1px solid #ccc }
+select[multiple], select[size] { height: auto }
+input[type=checkbox]:focus, input[type=file]:focus, input[type=radio]:focus, select:focus { outline: thin dotted #333; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.uneditable-input, .uneditable-textarea { color: #999; cursor: not-allowed; background-color: #fcfcfc; border-color: #ccc; -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .025); -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .025); box-shadow: inset 0 1px 2px rgba(0, 0, 0, .025) }
+/*Reset CSS End*/
+
+
+
+
